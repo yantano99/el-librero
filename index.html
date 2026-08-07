@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Librero</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="/" class="logo-area" id="logoHome">
+      <div class="logo-icon">
+        <img src="/img/logo.png" alt="Logo" />
+      </div>
+      <div class="logo-text">El Librero</div>
+    </a>
+
+    <!-- <div class="search-area">
+      <span class="search-icon">🔍</span>
+      <input
+        type="text"
+        id="search"
+        placeholder="Buscar libro o autor..."
+      />
+    </div>
+    <select id="filtro-categoria">
+      <option value="todos">
+          Todas las categorías
+      </option>
+    </select> -->
+
+    <!-- Botón Donar -->
+    <a href="#donar" class="btn-donate">
+      <span class="donate-icon">$</span>
+      <span>Donar</span>
+    </a>
+
+    <!-- <button id="btn-tema">🌙 Modo </button> -->
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>
+        Biblioteca digital
+      </h1>
+      <p>
+        Explora cientos de libros organizados por categorías y autores.
+      </p>
+      <div class="stats">
+        <div class="stat-box">
+          <span id="booksCount">0</span>
+          <small>Libros</small>
+        </div>
+        <div class="stat-box">
+          <span id="categoriesCount">0</span>
+          <small>Categorías</small>
+        </div>
+        <div class="stat-box">
+          <span>PDF</span>
+          <small>Formato</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main class="container">
+    <div class="section-header">
+      <h2 class="section-title">Libros</h2>
+      <span class="results" id="resultsText">0 libros</span>
+    </div>
+    <div class="controles">
+      <div class="search-area">
+        <span class="search-icon">🔍</span>
+        <input
+          type="text"
+          id="search"
+          placeholder="Buscar libro por título o autor..."
+        />
+      </div>
+      <select id="filtro-categoria">
+        <option value="todos">
+            General
+        </option>
+      </select>
+    </div>
+    
+    <div class="channels" id="books"></div>
+  </main>
+
+  <section class="donate-section" id="donar">
+
+    <!-- Encabezado -->
+    <header class="donate-header">
+        <h1>
+            Apoya a <span>El Librero</span>
+        </h1>
+        <div class="donate-line"></div>
+        <p>
+            Desde 2025, brindamos acceso al conocimiento de forma gratuita y sin restricciones.
+        </p>
+        <p>
+            Somos un proyecto independiente que crece gracias a personas como tú.
+            Tu donación ayuda a mantener nuestra biblioteca digital libre para todos.
+        </p>
+    </header>
+
+    <!-- Métodos de donación -->
+    <div class="donate-grid">
+
+        <!-- NEQUI -->
+        <div class="donate-card">
+            <h3>
+                🇨🇴 Donar con Nequi
+            </h3>
+            <p>
+                Envía tu aporte al siguiente número:
+            </p>
+            <button id="copyBtn" class="copy-btn">
+                <span id="nequiNumber">
+                    313 601 9101 
+                </span>
+            </button>
+        </div>
+
+        <!-- PAYPAL -->
+        <div class="donate-card">
+            <h3>
+                🌎 Donar con PayPal
+            </h3>
+            <p>
+                Apoya desde cualquier lugar del mundo.
+            </p>
+            <a
+                href="https://paypal.me/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="paypal-btn"
+            >
+                Donar con PayPal
+            </a>
+        </div>
+    </div>
+
+    <!-- Firma -->
+    <footer class="donate-footer">
+        <p>
+            "El conocimiento es de quien lo busca"
+        </p>
+        <strong>
+            Yan Tano — Creador
+        </strong>
+    </footer>
+
+  </section>
+
+  <script src="app.js"></script>
+  <footer class="footer">
+    <p>© 2026 El Librero · Biblioteca digital</p>
+  </footer>
+</body>
+</html>
