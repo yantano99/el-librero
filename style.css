@@ -110,7 +110,7 @@ body{
 
 
 #search{
-    width:300px;
+    width: 260px;
 }
 
 
@@ -215,31 +215,18 @@ body{
 
 
 .channels{
-
     display:grid;
-
     grid-template-columns:
     repeat(auto-fill,minmax(160px,1fr));
-
     gap:18px;
-
 }
 
-
-
 .channel-card{
-
-
     background:var(--card);
-
     border-radius:18px;
-
     overflow:hidden;
-
     transition:.3s;
-
     border:1px solid var(--border);
-
 }
 
 /* .channel-card:hover{
@@ -247,15 +234,10 @@ body{
 } */
 
 .channel-image-wrapper{
-
     width:100%;
-
     overflow:hidden;
-
     background:#080808;
-
     border-radius:12px;
-
 }
 
 .channel-image{
@@ -269,9 +251,7 @@ body{
 
 
 .channel-image:hover{
-
     transform:scale(1.05);
-
 }
 
 .channel-info{
@@ -373,7 +353,7 @@ body{
 }
 
 #search{
-    width:300px;
+    width:100%;
 }
 
 .hero{
@@ -384,12 +364,17 @@ body{
     font-size:38px;
 }
 
-.channels{
-
+/* .channels{
     grid-template-columns:
     repeat(auto-fill,minmax(160px,1fr));
+} */
 
-}
+.channels {
+        /* CAMBIO AQUÍ: Crea exactamente 2 columnas elásticas */
+        display: grid; /* Asegura que grid esté activo */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; /* Opcional: espacio de separación entre las tarjetas */
+    }
 
 
 
