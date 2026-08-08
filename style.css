@@ -105,6 +105,7 @@ body{
     color:var(--text);
     font-size:15px;
     text-align: center;
+    text-align-last: center;
 }
 
 
@@ -292,13 +293,9 @@ body{
 }
 
 .book-author{
-
     color:var(--secondary);
-
     font-size:13px;
-
     margin-bottom:0px;
-
 }
 
 .channel-category{
@@ -316,17 +313,10 @@ body{
 ========================= */
 
 .buttons{
-
     display:flex;
-
     justify-content:space-between;
-
     gap:12px;
-
- 
-
 }
-
 
 .buttons a{
 
@@ -372,47 +362,27 @@ body{
  RESPONSIVE
 ========================= */
 
-
 @media(max-width:768px){
 
-
 .navbar{
-
     padding:15px;
-
+    display: flex;
     flex-direction:row;
-
     height:auto;
-
     gap:15px;
-
 }
-
-
 
 #search{
-
-    width:100%;
-
+    width:300px;
 }
-
-
 
 .hero{
-
     padding:25px;
-
 }
-
-
 
 .hero h1{
-
     font-size:38px;
-
 }
-
-
 
 .channels{
 
