@@ -133,7 +133,7 @@ body{
         rgba(0,0,0,.7),
         rgba(0,0,0,.9)
     ),
-    url("/img/fondo.jpeg");
+    url("img/fondo.jpeg");
     background-size:contain;
     background-position:center;
     display:flex;

@@ -116,7 +116,7 @@ function mostrarLibros(listaDeLibros) {
                         src="https://drive.google.com/thumbnail?id=${obtenerIdDrive(libro.link_drive)}&sz=w500"
                         class="channel-image"
                         alt="${libro.title}"
-                        onerror="this.src='./img/driveImg.png'"
+                        onerror="this.src='img/driveImg.png'"
                     >
                 </a>
             </div>
@@ -142,7 +142,7 @@ function mostrarLibros(listaDeLibros) {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="./img/drive.svg" alt="Drive" class="icon">
+                        <img src="img/drive.svg" alt="Drive" class="icon">
 
                     </a>
                     <a
@@ -150,7 +150,7 @@ function mostrarLibros(listaDeLibros) {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="./img/tg.webp" alt="Telegram" class="icon">
+                        <img src="img/tg.webp" alt="Telegram" class="icon">
                     </a>
 
                 </div>
