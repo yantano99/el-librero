@@ -242,18 +242,20 @@ body{
     overflow:hidden;
     text-overflow:ellipsis;
     margin-bottom:0;
+    color:yellow;
 }
 
 .book-author{
-    color:var(--secondary);
-    font-size:13px;
+    /*color:var(--secondary);*/
+    font-size:12px;
     margin-bottom:0px;
 }
 
 .channel-category{
     display:block;
-    color:var(--secondary);
-    font-size:12px;
+    /*color:var(--secondary);*/
+    color:violet;
+    font-size:11px;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;

@@ -135,25 +135,7 @@ function mostrarLibros(listaDeLibros) {
                     ${libro.category}
                 </div>
 
-                <div class="buttons">
-
-                    <a
-                        href="${libro.link_drive}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src="img/drive.svg" alt="Drive" class="icon">
-
-                    </a>
-                    <a
-                        href="${libro.link_telegram}"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img src="img/tg.webp" alt="Telegram" class="icon">
-                    </a>
-
-                </div>
+                <!-- aqui iba el div class buttons-->
 
             </div>
 
