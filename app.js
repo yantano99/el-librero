@@ -108,17 +108,23 @@ function mostrarLibros(listaDeLibros) {
 
         tarjeta.className = "channel-card";
 
-        tarjeta.innerHTML = `
+        // 1. Validación robusta: verifica que exista, que no sea "null" en texto y que no esté vacío
+        const tieneEnlace = libro.link_drive && libro.link_drive.trim() !== "" && libro.link_drive.trim() !== "null";
 
+        // 2. Generamos dinámicamente solo la sección de la imagen/enlace
+        const estructuraImagen = tieneEnlace 
+            ? `<a href="${libro.link_drive}" target="_blank" rel="noopener noreferrer">
+                    <img src="https://drive.google.com/thumbnail?id=${obtenerIdDrive(libro.link_drive)}&sz=w500" 
+                        class="channel-image" alt="${libro.title}" onerror="this.src='img/driveImg.png'">
+            </a>`
+            : `<img src="https://previews.123rf.com/images/blankstock/blankstock1402/blankstock140200180/25706852-no-pdf-file-document-icon-download-pdf-button-pdf-file-symbol-red-prohibition-sign-stop-symbol.jpg" 
+                    class="channel-image" alt="No disponible">`;
+        
+        // 3. Renderizamos una sola plantilla limpia sin duplicar la información del libro
+        tarjeta.innerHTML = `
+        
             <div class="channel-image-wrapper">
-                <a  href="${libro.link_drive}" target="_blank" rel="noopener noreferrer">
-                    <img
-                        src="https://drive.google.com/thumbnail?id=${obtenerIdDrive(libro.link_drive)}&sz=w500"
-                        class="channel-image"
-                        alt="${libro.title}"
-                        onerror="this.src='img/driveImg.png'"
-                    >
-                </a>
+                ${estructuraImagen}
             </div>
 
             <div class="channel-info">
@@ -148,11 +154,8 @@ function mostrarLibros(listaDeLibros) {
 }
 
 function obtenerIdDrive(url){
-
     const match = url.match(/\/d\/([^/]+)/);
-
     return match ? match[1] : "";
-
 }
 
 
