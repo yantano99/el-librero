@@ -4865,7 +4865,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce853e",
-  "title": "Cuadernos de Sostenibilidad N1 La neutralidad de carbono",
+  "title": "Cuadernos de Sostenibilidad N1",
   "author": "BBVA",
   "category": "OpenMind",
   "link_drive": "https://drive.google.com/file/d/1k94osmb57YfTC6BnMBxlIkJrip-83qvQ/view?usp=drivesdk",
@@ -4873,7 +4873,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce853f",
-  "title": "Cuadernos de Sostenibilidad N2 Soluciones naturales y tecnologicas para frenar el cambio climatico",
+  "title": "Cuadernos de Sostenibilidad N2",
   "author": "BBVA",
   "category": "OpenMind",
   "link_drive": "https://drive.google.com/file/d/1cKdZkp07dVu5HVEeClNwBxE6sXY23Nb0/view?usp=drivesdk",
@@ -4881,7 +4881,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce8540",
-  "title": "Cuadernos de Sostenibilidad N3 Alternativas a los combustibles fosiles",
+  "title": "Cuadernos de Sostenibilidad N3",
   "author": "BBVA",
   "category": "OpenMind",
   "link_drive": "https://drive.google.com/file/d/1A4XtI4K6lTExq1CbCzbfQ1HxMpa5GqJV/view?usp=drivesdk",
@@ -7934,6 +7934,30 @@
   "category": "Filosofia de las formas simbolicas",
   "link_drive": "https://drive.google.com/file/d/15cKs4HOaPvNBotq-UCCTPXIbIYN3okNR/view?usp=drivesdk",
   "link_telegram": "https://t.me/c/3590154454/1138/1275"
+ },
+ {
+  "_id": "6ab09a7995062f08a0ce849c",
+  "title": "Historia del pensamiento filosofico y cientifico Tomo 1",
+  "author": "Giovanni Reale",
+  "category": "Historia del pensamiento filosofico y cientifico",
+  "link_drive": "https://drive.google.com/file/d/13YXBk93bdDlGaO54oqKDiFGe5rA_s8ZU/view?usp=drivesdk",
+  "link_telegram": "https://t.me/c/3590154454/1138/1276"
+ },
+ {
+  "_id": "6ab09a7995062f08a0ce849d",
+  "title": "Historia del pensamiento filosofico y cientifico Tomo 2",
+  "author": "Giovanni Reale",
+  "category": "Historia del pensamiento filosofico y cientifico",
+  "link_drive": "https://drive.google.com/file/d/1eb37v99Dn5Mde8Supnb94puA6qcJq0Oy/view?usp=drivesdk",
+  "link_telegram": "https://t.me/c/3590154454/1138/1277"
+ },
+ {
+  "_id": "6ab09a7995062f08a0ce849e",
+  "title": "Historia del pensamiento filosofico y cientifico Tomo 3",
+  "author": "Giovanni Reale",
+  "category": "Historia del pensamiento filosofico y cientifico",
+  "link_drive": "https://drive.google.com/file/d/1QW5FkCn8AqPbiWDQsGv1dudAbFZUoKfT/view?usp=drivesdk",
+  "link_telegram": "https://t.me/c/3590154454/1138/1278"
  },
  {
   "_id": "6ab09a7995062f08a0ce7a35",
@@ -11910,30 +11934,6 @@
   "category": "Historia de las cruzadas",
   "link_drive": "https://drive.google.com/file/d/1Iy7te4SyL84tmwHKaJ4I2YU3dPOrtGXT/view?usp=drivesdk",
   "link_telegram": "https://t.me/c/3590154454/247/604"
- },
- {
-  "_id": "6ab09a7995062f08a0ce849c",
-  "title": "Historia del pensamiento filosofico y cientifico Tomo 1",
-  "author": "Giovanni Reale",
-  "category": "Historia del pensamiento filosofico y cientifico",
-  "link_drive": "https://drive.google.com/file/d/13YXBk93bdDlGaO54oqKDiFGe5rA_s8ZU/view?usp=drivesdk",
-  "link_telegram": "https://t.me/c/3590154454/1138/1276"
- },
- {
-  "_id": "6ab09a7995062f08a0ce849d",
-  "title": "Historia del pensamiento filosofico y cientifico Tomo 2",
-  "author": "Giovanni Reale",
-  "category": "Historia del pensamiento filosofico y cientifico",
-  "link_drive": "https://drive.google.com/file/d/1eb37v99Dn5Mde8Supnb94puA6qcJq0Oy/view?usp=drivesdk",
-  "link_telegram": "https://t.me/c/3590154454/1138/1277"
- },
- {
-  "_id": "6ab09a7995062f08a0ce849e",
-  "title": "Historia del pensamiento filosofico y cientifico Tomo 3",
-  "author": "Giovanni Reale",
-  "category": "Historia del pensamiento filosofico y cientifico",
-  "link_drive": "https://drive.google.com/file/d/1QW5FkCn8AqPbiWDQsGv1dudAbFZUoKfT/view?usp=drivesdk",
-  "link_telegram": "https://t.me/c/3590154454/1138/1278"
  },
  {
   "_id": "6ab09a7995062f08a0ce81f5",
@@ -20257,7 +20257,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce8331",
-  "title": "Pandemonium 1 De la pandemia al control total",
+  "title": "Pandemonium 1",
   "author": "Carlos Beltramo",
   "category": "Politica",
   "link_drive": "https://drive.google.com/file/d/1e8F_MzrRhGApLRaZBYqTgBAoI1D6fAW7/view?usp=drivesdk",
@@ -20265,7 +20265,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce8332",
-  "title": "Pandemonium 2 La cura",
+  "title": "Pandemonium 2",
   "author": "Carlos Beltramo",
   "category": "Politica",
   "link_drive": "https://drive.google.com/file/d/1x5Sanz5SZ5EDDEX0xTqlwmi_1E0DpCwX/view?usp=drivesdk",
@@ -20273,7 +20273,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce8333",
-  "title": "Pandemonium 3 La tormenta perfecta",
+  "title": "Pandemonium 3",
   "author": "Carlos Beltramo",
   "category": "Politica",
   "link_drive": "https://drive.google.com/file/d/1bG958DzM4JDjQONk8b7wa0m-LpJG9c6R/view?usp=drivesdk",
@@ -22017,7 +22017,7 @@
  },
  {
   "_id": "6ab09a7995062f08a0ce7b07",
-  "title": "Introduccion a la psicologia 12 Ed",
+  "title": "Introduccion a la psicologia 12a Ed",
   "author": "Charles Morris",
   "category": "Psicologia",
   "link_drive": "https://drive.google.com/file/d/1GDVluiX7cOWF_w2oEiuAo5yWicxIeNLl/view?usp=drivesdk",
