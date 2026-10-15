@@ -141,6 +141,10 @@ function mostrarLibros(listaDeLibros) {
                     ${libro.category}
                 </div>
 
+                <div class="channel-category" title="${libro.theme}">
+                    ${libro.theme}
+                </div>
+
                 <!-- aqui iba el div class buttons-->
 
             </div>
