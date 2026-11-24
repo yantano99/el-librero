@@ -31,14 +31,25 @@
           Todas las categorías
       </option>
     </select> -->
+    
+    <!-- <button class="btn-tema" id="btn-tema">🌙 Modo Oscuro</button>
 
-    <!-- Botón Donar -->
     <a href="#donar" class="btn-donate">
       <span class="donate-icon">$</span>
       <span>Donar</span>
-    </a>
+    </a> -->
 
-    <!-- <button id="btn-tema">🌙 Modo </button> -->
+    <!-- Agrupamos los botones de la derecha -->
+    <div class="nav-actions">
+      <a href="#donar" class="btn-donate">
+        <span class="donate-icon">$</span>
+        <span>Donar</span>
+      </a>
+
+      <button id="btn-tema" title="Modo Oscuro/Claro">🌙</button>
+      <!-- <button id="btn-tema">🌙 Modo Oscuro</button> -->
+    </div>
+
   </header>
 
   <!-- HERO -->
@@ -48,7 +59,7 @@
         Biblioteca digital
       </h1>
       <p>
-        Explora miles de libros en PDF para tí.
+        Explora miles de libros en PDF para ti.
       </p>
       <div class="stats">
         <div class="stat-box">
@@ -72,33 +83,24 @@
     <div class="controles">
       <div class="search-area">
         <span class="search-icon">🔍</span>
-        <input
-          type="text"
-          id="search"
-          placeholder="Buscar libro por título o autor..."
-        />
+        <input type="text" id="search" placeholder="Buscar libro por título o autor..."/>
       </div>
       <select id="filtro-categoria">
-        <option value="todos">
-            General
-        </option>
+        <option value="todos">General</option>
       </select>
     </div>
     
-    <div class="channels" id="books"></div>
+    <div class="grid-books" id="books"></div>
+    <div id="paginacion" class="paginacion"></div>
   </main>
 
   <section class="donate-section" id="donar">
 
     <!-- Encabezado -->
     <header class="donate-header">
-        <h1>
-            Apoya a <span>El Librero</span>
-        </h1>
+        <h1>Apoya a <span>El Librero</span></h1>
         <div class="donate-line"></div>
-        <p>
-            Desde 2025, brindamos acceso al conocimiento de forma gratuita y sin restricciones.
-        </p>
+        <p>Desde 2025, brindamos acceso al conocimiento de forma gratuita y sin restricciones.</p>
         <p>
             Somos un proyecto independiente que crece gracias a personas como tú.
             Tu donación ayuda a mantener nuestra biblioteca digital libre para todos.
@@ -107,32 +109,18 @@
 
     <!-- Métodos de donación -->
     <div class="donate-grid">
-
         <!-- NEQUI -->
         <div class="donate-card">
-            <h3>
-                🇨🇴 Donar con Nequi
-            </h3>
-            <p>
-                Envía tu aporte al siguiente número:
-            </p>
-            <button id="copyBtn" class="copy-btn">
-                <span id="nequiNumber">
-                    313 601 9101 
-                </span>
-            </button>
+            <h3>🇨🇴 Donar con Nequi</h3>
+            <p>Envía tu aporte al siguiente número:</p>
+            <span class="nequi-btn">313 601 9101 </span>
         </div>
 
         <!-- PAYPAL -->
         <div class="donate-card">
-            <h3>
-                🌎 Donar con PayPal
-            </h3>
-            <p>
-                Apoya desde cualquier lugar del mundo.
-            </p>
-            <a
-                href="https://paypal.me/"
+            <h3>🌎 Donar con PayPal</h3>
+            <p>Apoya desde cualquier lugar del mundo.</p>
+            <a href="https://paypal.me/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="paypal-btn"
@@ -144,19 +132,14 @@
 
     <!-- Firma -->
     <footer class="donate-footer">
-        <p>
-            "El conocimiento es de quien lo busca"
-        </p>
-        <strong>
-           Yan Tano — Creador
-        </strong>
+        <p>"El conocimiento es de quien lo busca"</p>
+        <p><strong>Yan Tano — Creador</strong></p>
     </footer>
-
   </section>
 
   <script src="app.js"></script>
   <footer class="footer">
-    <p>© 2026 El Librero · Biblioteca digital</p>
+    <p><strong>© 2026 El Librero · Biblioteca digital</strong></p>
   </footer>
 </body>
 </html>
