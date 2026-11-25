@@ -1,7 +1,7 @@
 let todosLosLibros = [];
 let librosFiltrados = [];
 let paginaActual = 1;
-const librosPorPagina = 28;
+const librosPorPagina = 30;
 
 document.addEventListener("DOMContentLoaded", () => {
     const buscador = document.getElementById("search");
